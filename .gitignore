@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# Ignore appsettings with secrets
+appsettings.json
+
 # dependencies
 /node_modules
 /.pnp
@@ -7,6 +10,7 @@
 
 # testing
 /coverage
+.vscode
 
 # production
 /build
